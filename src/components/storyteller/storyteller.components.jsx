@@ -1,5 +1,4 @@
 import { useState, Fragment } from 'react';
-
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import {StoryContainer} from './storyteller.styles.jsx';

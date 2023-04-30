@@ -12,7 +12,6 @@ export const NavigationContainer = styled.div`
     justify-content: space-between; 
    
    
-    background-color: clear;
 
     
    
