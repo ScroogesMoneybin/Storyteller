@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import archImage from '../../assets/persian-arch6.jpg'; 
+import archImage from '../../assets/persian-arch6.png'; 
 
 
 
