@@ -5,6 +5,6 @@ export const StoryContainer = styled.div`
     align-items: center; 
     justify-content: center; 
     position: relative; 
-    width: 70%; 
+    width: 60%; 
     height: 715px; 
 `

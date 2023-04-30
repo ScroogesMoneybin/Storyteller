@@ -33,7 +33,7 @@ export const GreetingsContainer = styled.div`
     width: 100%;
     justify-content: center;
     background-color: black;
-    font-family: papyrus;
+    font-family: Papyrus, Algerian, Kalam;
     font-size: 40px;
     font-weight: bold;
     color: gold;
