@@ -10,7 +10,8 @@ const Storyteller =() => {
   const chatModelVersion = "gpt-3.5-turbo";
   const systemMessage = { 
   "role": "system", 
-  "content": process.env.REACT_APP_CHATGPT_SYSTEM_MESSAGE_CONTENT_PROMPT
+  "content": process.env.REACT_APP_CHATGPT_SYSTEM_MESSAGE_CONTENT_PROMPT  
+  /* This system content prompt dictates how the AI responds. I placed it into an environment variable in case some people don't want to reveal their system prompts. I wanted to give them the option to hide it as an env variable.*/
   }
 
 const [chatting, setChatting] = useState([
