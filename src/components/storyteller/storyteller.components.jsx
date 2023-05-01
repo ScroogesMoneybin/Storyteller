@@ -7,7 +7,7 @@ import {StoryContainer} from './storyteller.styles.jsx';
 const Storyteller =() => {
 
   const API_KEY = process.env.REACT_APP_CHATGPT_API_KEY;
-
+  const chatModelVersion = "gpt-3.5-turbo";
   const systemMessage = { 
   "role": "system", 
   "content": process.env.REACT_APP_CHATGPT_SYSTEM_MESSAGE_CONTENT_PROMPT
@@ -51,7 +51,7 @@ const [chatting, setChatting] = useState([
     });
 
     const apiRequestBody = {
-      "model": "gpt-3.5-turbo",
+      "model": chatModelVersion,
       "messages": [systemMessage, ...apiMessages]
     }
 
